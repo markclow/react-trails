@@ -1,0 +1,47 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #716662;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #716662;
+  background: #e3efbe url(../images/reactjs.png) no-repeat right 10px;
+  background-size: contain;
+  h1 {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    color: #716662;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size:25px;
+    &.active,
+    &:hover {
+      background-color: #0085F3;
+    }
+  }
+}
+
+section {
+ padding: 20px;
+}
+
+input {
+  border: 1px solid #cccccc;
+}
+
+.centered {
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
